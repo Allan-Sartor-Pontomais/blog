@@ -28,4 +28,4 @@ COPY . $INSTALL_PATH
 
 EXPOSE 3000
 
-CMD ["rails", "server", "-b", "localhost"]
+CMD ["rails", "server", "-b", "0.0.0.0"]
